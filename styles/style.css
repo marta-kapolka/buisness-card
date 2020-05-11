@@ -23,7 +23,7 @@ body {
   border-radius: 16px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
   margin: 16px;
-  padding: 32px;
+  padding: 25px 32px 25px 25px;
   width: 720px;
   -webkit-animation: scale-in-center 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     0.5s both;
@@ -40,8 +40,9 @@ body {
 }
 
 .graphic__image {
-  border-radius: 6px;
+  border-radius: 12px;
   height: 145px;
+  padding: 7px;
 }
 
 .graphic__network {
@@ -55,6 +56,10 @@ body {
   font-size: 42px;
   line-height: 1;
   text-decoration: none;
+}
+
+.network-link__item {
+  font-size: 42px;
 }
 
 .person {
