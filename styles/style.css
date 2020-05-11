@@ -10,57 +10,69 @@ html {
 
 body {
   align-items: center;
-  background-color: #2c2141;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Jost", Arial, Helvetica, sans-serif;
   height: 100vh;
   justify-content: center;
 }
 
 .card {
-  background-color: #f8f8f8;
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 16px;
-
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
   margin: 16px;
   padding: 32px;
-  width: 624px;
+  width: 720px;
 }
 
-.person__image {
+.person {
+  display: flex;
+  align-items: stretch;
 }
 
-.person__data {
-    margin-bottom: 24px;
+.graphic__image {
+  height: 200px;
 }
 
-.person__name {
+/* .graphic__image {
+  border-radius: 74px;
+  height: 148px;
+  margin-right: 32px;
+} */
+
+.graphic__network {
+  align-items: flex-end;
+  display: flex;
+  margin-right: 32px;
+}
+
+.description {
+  text-align: right;  
+}
+
+.description__data {
+  margin-bottom: 24px;
+}
+
+.description__name {
   font-size: 36px;
-  font-weight: normal;
+  font-weight: 600;
+  letter-spacing: 3px;
   margin: 0;
 }
 
-.person__position {
-  color: #545454;
-  font-size: 18px;
+.description__position {
+  font-size: 16px;
   font-style: italic;
+  font-weight: 300;
+  letter-spacing: 5px;
   margin: 0;
 }
 
-.person__description {
-    font-size: 16px;
-    line-height: 22px;
-    margin: 0;
-}
-
-.person__description--with-marign {
-    margin-bottom: 22px;
-}
-
-.person__description--special {
-    color: #ED6D05;
-}
-
-.person__description--link {
-    color: #E20613;
-    text-decoration: none;
+.description__text {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
 }

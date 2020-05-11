@@ -4,37 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Jost:200,300,400,500,600,700&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="./styles/normalize.css" />
     <link rel="stylesheet" type="text/css" href="./styles/style.css" />
   </head>
   <body>
     <main class="card">
       <article class="person">
-        <img
-          class="person__image"
-          src="./img/avatar.png"
-          alt="zdjęcie imię i nazwisko"
-        />
-        <header class="person__data">
-          <h1 class="person__name">Imię nazwisko</h1>
-          <p class="person__position">frontend developer</p>
-        </header>
-        <p class="person__description--with-margin">
-          Programista z
-          <span class="person__description--special"
-            >kilkunastoletnim doświadczeniem</span
-          >, fotograf, operator drona, właściciel Sokoła Millennium (na razie
-          tylko z Lego),
-          <span class="person__description--special"
-            >prelegent i szkoleniowiec</span
-          >. Uwielbia eksperymentować z nowymi technologiami, w swojej
-          twórczości ocierając się o sztukę.
-        </p>
-        <p class="person__description">
-          W sieci: <a class="person__description--link" href="#">Facebook</a>,
-          <a class="person__description--link" href="#">GitHub</a>,
-          <a class="person__description--link" href="#">Instagram</a>.
-        </p>
+        <div class="graphic">
+          <img
+            class="graphic__image"
+            src="./img/avatar.jpg"
+            alt="zdjęcie imię i nazwisko"
+          />
+          <div class="graphic__network">
+            <a class="network__link" href="#">Facebook</a>,
+            <a class="network__link" href="#">GitHub</a>,
+            <a class="network__link" href="#">Flickr</a>.
+          </div>
+        </div>
+        <div class="description">
+          <header class="description__data">
+            <h1 class="description__name">Marta Kapołka</h1>
+            <p class="description__position">baby frontend developer</p>
+          </header>
+          <p class="description__text">
+            Jeszcze architekt(ka..?), ale nie taka jak myślicie, wkrótce ma
+            nadzieję zostać frontendowcem(-czynią..??). W czasie wolnym szlaja
+            się po lesie z mapą i kompasem albo i bez, w chwilach natchnienia
+            robi zdjęcia, a ostatnio maniacko kupuje rośliny doniczkowe (żadnej
+            z tych ostatnich jeszcze nie zasuszyła!).
+          </p>
+        </div>
       </article>
     </main>
   </body>
