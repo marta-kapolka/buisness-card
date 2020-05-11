@@ -1,18 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-    align-items: center;
-    background-color: #2C2141;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
+  align-items: center;
+  background-color: #2c2141;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  justify-content: center;
 }
 
 .card {
-    background-color: #F8F8F8;
-    border-radius: 16px;
-    margin: 16px;
-    width: 624px;
+  background-color: #f8f8f8;
+  border-radius: 16px;
+
+  margin: 16px;
+  padding: 32px;
+  width: 624px;
 }
 
 .person__image {
+}
 
+.person__data {
+    margin-bottom: 24px;
+}
+
+.person__name {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.person__position {
+  color: #545454;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0;
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.person__description--with-marign {
+    margin-bottom: 22px;
+}
+
+.person__description--special {
+    color: #ED6D05;
+}
+
+.person__description--link {
+    color: #E20613;
+    text-decoration: none;
 }
