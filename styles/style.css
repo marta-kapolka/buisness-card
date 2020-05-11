@@ -18,7 +18,7 @@ body {
   justify-content: center;
 }
 
-.card {
+.main {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 16px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
@@ -30,7 +30,7 @@ body {
   animation: scale-in-center 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
 }
 
-.person {
+.card {
   align-items: stretch;
   display: flex;
 }
@@ -40,39 +40,39 @@ body {
 }
 
 .graphic__image {
+  border-radius: 6px;
   height: 145px;
 }
 
 .graphic__network {
-  align-items: flex-end;
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.network__link {
+.network-link {
   color: rgba(0, 0, 0, 0.9);
   font-size: 42px;
   line-height: 1;
   text-decoration: none;
 }
 
-.description {
+.person {
   text-align: right;
 }
 
-.description__data {
+.person__info {
   margin-bottom: 32px;
 }
 
-.description__name {
+.person__name {
   font-size: 36px;
   font-weight: 600;
   letter-spacing: 3px;
   margin: 0;
 }
 
-.description__position {
+.person__position {
   font-size: 16px;
   font-style: italic;
   font-weight: 300;
@@ -80,7 +80,7 @@ body {
   margin: 0;
 }
 
-.description__text {
+.person__description {
   font-size: 16px;
   line-height: 24px;
   margin: 0;
