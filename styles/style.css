@@ -62,6 +62,10 @@ body {
   font-size: 42px;
 }
 
+.network-link__item:hover {
+  opacity: .5;
+}
+
 .person {
   text-align: right;
 }
