@@ -48,7 +48,7 @@ body {
 .graphic__network {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 17px;
 }
 
 .network-link {
@@ -71,7 +71,7 @@ body {
 }
 
 .person__info {
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .person__name {
