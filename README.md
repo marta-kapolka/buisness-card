@@ -2,7 +2,7 @@
 
 ---
 
-Minimalistic notepad using local storage to save and load your note.
+Static buisness card introducing me as a novice frontend developer.
 
 LIVE: [simple note](https://marta-kapolka.github.io/buisness-card/)
 
@@ -17,7 +17,7 @@ LIVE: [simple note](https://marta-kapolka.github.io/buisness-card/)
 
 ### Goal
 
-The goal of the exercise was to practice basic HTML and CSS by creating small project focusing on proper semantic HTML structure and using BEM Methodology logic.
+The goal of the exercise was to practice basic HTML and CSS by creating small project focusing on proper semantic HTML structure and using BEM Methodology.
 
 ### Main objectives
 
