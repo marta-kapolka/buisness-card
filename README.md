@@ -4,7 +4,7 @@
 
 Static buisness card introducing me as a novice frontend developer.
 
-LIVE: [simple note](https://marta-kapolka.github.io/buisness-card/)
+LIVE: [buisness card](https://marta-kapolka.github.io/buisness-card/)
 
 ![page preview](buisness-card_screen.png)
 
@@ -17,7 +17,7 @@ LIVE: [simple note](https://marta-kapolka.github.io/buisness-card/)
 
 ### Goal
 
-The goal of the exercise was to practice basic HTML and CSS by creating small project focusing on proper semantic HTML structure and using BEM Methodology.
+The goal of the exercise was to practice **basic HTML and CSS** by creating small project focusing on proper semantic HTML structure and using BEM Methodology.
 
 ### Main objectives
 
